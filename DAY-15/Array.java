@@ -126,7 +126,7 @@ class Array {
 
     public void reverse(){
         if (size == 0) {
-            throw new RuntimeException("Empty array; nothing to rotate");
+            throw new RuntimeException("Empty array; nothing to reverse");
         }
         int i=0;
         int j=size - 1;
